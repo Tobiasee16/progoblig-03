@@ -1,4 +1,4 @@
-background = circle(150, "solid", "lightgrey")
+background = circle(160, "solid", "lightgrey")
 eye1 = circle(30, "solid", "red")
 eye2 = circle(30, "solid", "red")
 nose = rectangle(30, 30, "solid", "black")

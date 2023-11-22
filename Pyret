@@ -5,11 +5,11 @@ nose = rectangle(30, 30, "solid", "black")
 mouth = triangle(80, "solid", "black")
 
 
-suprised-face =
+concerned-face =
   put-image(eye1, 100, 190,
     put-image(eye2, 200, 190,
       put-image(nose, 150, 130,
         put-image(mouth, 150, 67,
           
           background))))
-suprised-face
+concerned-face

@@ -1,15 +1,13 @@
 background = circle(160, "solid", "lightgrey")
 eye1 = circle(30, "solid", "red")
 eye2 = circle(30, "solid", "red")
-nose = rectangle(30, 30, "solid", "black")
-mouth = triangle(80, "solid", "black")
+mouth = rectangle(70, 10, "solid", "black")
 
 
-concerned-face =
+unamused-face =
   put-image(eye1, 100, 190,
     put-image(eye2, 200, 190,
-      put-image(nose, 150, 130,
         put-image(mouth, 150, 67,
           
-          background))))
-concerned-face
+          background)))
+unamused-face
